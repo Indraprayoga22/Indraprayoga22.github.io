@@ -1,0 +1,94 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info PPDB</title>
+    <style>
+        body
+            {font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;}
+        header {
+	    height:500px;
+            background-image: url(header.png);
+	    background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: black;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #66ff66;
+            color: black;
+        }
+        .container {
+            padding: 100px;
+	    background-image: url(ppdb.png);
+	    background-size: cover;
+	    
+
+        }
+        .box {
+            border: 5px solid #00ff00;
+	    border-radius:15px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+ 	@keyframes moveText {
+      	0% {transform: translateX(10%);}
+      	100% {transform: translateX(-80%);}
+    	}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di MTS  CIKEMBULAN</h1>
+	
+    </header>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="ekskul.html">Ekstra Kurikuler</a>
+        <a href="ppdb.html">info PPDB</a>
+    </nav>
+    <nav style="background-color: #009900; color: white; overflow: hidden; white-space: nowrap;font-size:20px;">
+    <span style="display: inline-block; padding-left: 100%; animation: moveText 25s linear infinite;">
+      Selamat datang di website resmi MTS Cikembulan. Ayo Sekolah! Ayo Mondok!
+    </span>
+        
+    </nav>
+    <div class="container">
+        <section id="kontak" class="box">
+            <h1>INFO PPDB</h1>
+            <p> Untuk info lebih lanjut tentang PPDB bisa menghubungi nomor dibawah ini:</p>
+	    <p>kontak : 0856419233434</p>
+	    <p>nama   : Indra Prayoga</p>
+        </section>
+        
+    </div>
+    <footer>
+        <p>&copy; MTS Cikembulan</p>
+    </footer>
+</body>
+</html>

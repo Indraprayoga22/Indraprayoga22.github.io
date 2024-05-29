@@ -1,0 +1,163 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTS Cikembulan</title>
+    <style>
+        body
+            {font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;}
+        header {
+	    height:500px;
+            background-image: url(header.png);
+	    background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: black;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #66ff66;
+            color: black;
+        }
+        .container {
+            padding: 40px;
+	    background-image: url(ppdb.png);
+	    background-size: cover;
+
+        }
+        .box {
+            border: 5px solid #00ff00;
+	    border-radius:15px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .scroll-container {
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 10px 0;
+        }
+        .command-button {
+            display: inline-block;
+            width: 400px;
+            height: 300px;
+            margin-right: 20px;
+            background-color: #45a049;
+            color: white;
+            font-size: 24px;
+            text-align: left;
+            line-height: 100px; /* Align text vertically */
+            cursor: pointer;
+            border: none;
+            border-radius: 10px;
+	    padding: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+	.command-button:first-of-type {
+  	    background-image: url('MTK.png');
+    	    background-size: cover;
+    	    background-position: center;
+            color: yellow}
+
+	.command-button:nth-of-type(2) {
+  	    background-image: url('TM.png');
+    	    background-size: cover;
+    	    background-position: center;
+            color: yellow}
+
+	.command-button:nth-of-type(3) {
+  	    background-image: url('NY.png');
+    	    background-width: auto;
+	    background-height: auto;
+    	    background-position: center;
+            color: yellow}
+	
+	.command-button:nth-of-type(4) {
+  	    background-image: url('PR.png');
+    	    background-size: cover;
+            color: yellow}
+
+        .command-button:hover {
+            background-color: #3e8e41;
+	    width: 450px;
+            height: 350px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+ 	@keyframes moveText {
+      	0% {transform: translateX(10%);}
+      	100% {transform: translateX(-80%);}
+    	}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di MTS CIKEMBULAN</h1>
+	
+    </header>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="ekskul.html">Ekstra Kurikuler</a>
+        <a href="ppdb.html">info PPDB</a>
+    </nav>
+    <nav style="background-color: #009900; color: white; overflow: hidden; white-space: nowrap;font-size:20px;">
+    <span style="display: inline-block; padding-left: 100%; animation: moveText 25s linear infinite;">
+      Selamat datang di website resmi MTS Cikembulan. Ayo Sekolah! Ayo Mondok!
+    </span>
+        
+    </nav>
+    <div class="container">
+        <section id="home" class="content">
+            <h1>Beranda</h1>
+            <p>Selamat datang di MTS  Cikembulan</p>
+	    <p>Kami berkomitmen untuk memberikan pendidikan terbaik bagi siswa kami.</p>
+        </section>
+        <section id="about" class="box">
+            <h1>PRESTASI SISWA</h1>
+            <p>Di MTS  Cikembulan, kami bangga dengan berbagai prestasi luar biasa yang telah diraih oleh siswa-siswa kami. Berikut adalah beberapa pencapaian terbaru yang menunjukkan dedikasi, kerja keras, dan bakat luar biasa dari para siswa</p>
+            <div class="scroll-container">
+                <a href="olim mtk.html" class="command-button">JUARA 1 LOMBA OLIMPIADE MAT...</a>
+                <a href="tenis meja.html" class="command-button">JUARA 1 LOMBA TENIS MEJA...</a>
+                <a href="nyanyi.html" class="command-button">JUARA 3 LOMBA MENYANYI...</a>
+                <a href="pramuka.html" class="command-button">JUARA 2 LOMBA PRAMUKA...</a>
+                
+            </div>
+        </section>
+        <section id="contact" class="box">
+            <h2>Kontak</h2>
+            <p>Alamat: Jl.Cikembulan, Grumbul ciledug. Kec. Pekuncen Kab. banyumas</p>
+            <p>Email: mts@gmail.com </p>
+            <p>Telepon: (021) 888998899</p>
+        </section>
+        <section id="news" class="box">
+            <h2>Berita</h2>
+            <p>Berita terbaru dan pengumuman akan ditampilkan di sini. Tetap terhubung untuk informasi terbaru.</p>
+        </section>
+
+    </div>
+    <footer>
+        <p>&copy; MTS Cikembulan</p>
+    </footer>
+</body>
+</html>
